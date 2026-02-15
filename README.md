@@ -238,11 +238,11 @@ And when epistemic friction crosses a threshold, it predicts replication failure
 ## IX. Citation & Credit
 
 **If you use this code, please cite:**
-
-> Atchley, D.E. (2026). Directional Conflict Score: A predictor of replication failure. GitHub repository. https://github.com/atchley/conflict-score-validation
+https://github.com/devinatchley6-eng/Conflict_score_validator
+> Atchley, D.E. (2026). Directional Conflict Score: A predictor of replication failure. GitHub repository. 
 
 **If you extend this work:**
-- Let me know (devin.atchley@synaptron.research)
+- Let me know (devinatchley6@gmail.com)
 - Consider co-authorship if substantial
 - Maintain attribution chain
 
@@ -256,7 +256,7 @@ And when epistemic friction crosses a threshold, it predicts replication failure
 ## X. Contact & Collaboration
 
 **Author:** Devin Earl Atchley  
-**Email:** devin.atchley@synaptron.research  
+**Email:** devinatchley6@gmail.com
 **Affiliation:** Independent Researcher / Synaptron-Alpha Research  
 **Location:** United States
 
