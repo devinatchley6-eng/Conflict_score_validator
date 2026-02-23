@@ -1,0 +1,8 @@
+{
+  "trials": 2000,
+  "seed": 42,
+  "type1_error_estimate": 0.0,
+  "power_estimate": 0.707,
+  "routing_consistency": 1.0,
+  "avg_effect_pass_rate": 0.707
+}

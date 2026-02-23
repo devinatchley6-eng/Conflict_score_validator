@@ -1,0 +1,7 @@
+results/
+runs/
+*.pyc
+__pycache__/
+.env
+coverage.xml
+*.log
