@@ -1,33 +1,26 @@
-# DCS Validator – Directional Conflict Sampling & Geometric Theory Validation
+# AUFSAFETY- Sentinel-DCS End-to-End Reference
 
-[![CI](https://github.com/devinatchley6-eng/dcs-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/devinatchley6-eng/dcs-validator/actions/workflows/ci.yml)
-[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+This repository now includes an executable **Sentinel-DCS end-to-end reference system** with reproducible synthetic empirical validation.
 
-A unified framework for **safe, self-correcting scientific cognition** combining:
-- **METIS inference core** (hypothesis generation)
-- **Blob-field geometry** (topological representation of theory families)
-- **Atchley structural containment** (invariant-based safety with Deepfreeze)
-- **Conflict scoring** (MIS, replication prediction)
-- **Formal verification** (Coq stub) & **statistical certification** (FDR)
-- **Topological monitoring** (persistent homology, separatrix detection)
+## Files
+- `sentinel_dcs_system.py` — end-to-end pipeline:
+  - manifest validation
+  - GaussianFitness routing
+  - intervention verification and release gates
+  - synthetic empirical validation harness
+- `tests/test_sentinel_dcs_system.py` — deterministic tests
+- `artifacts/empirical_validation_report.json` — generated validation report (after run)
 
-## Installation
-
+## Run full empirical validation
 ```bash
-pip install -e .
+python sentinel_dcs_system.py --validate --trials 2000 --seed 42
 ```
 
-## Quick Start
-
-```python
-from scripts import run_verification
-run_verification.main()
+## Run tests
+```bash
+python -m unittest discover -s tests -p 'test_*.py' -v
 ```
 
-## Documentation
-
-See [docs/architecture.md](docs/architecture.md) for the full system design.
-
-## License
-
-Apache 2.0
+## Notes
+- This is an **end-to-end implementation** with a full, reproducible validation harness.
+- Validation is **synthetic (simulation-based)**; real-world deployment still requires external datasets and protocol registration.
